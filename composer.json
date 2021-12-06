@@ -17,5 +17,8 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.0"
+    },
+    "require-dev": {
+        "illuminate/database": "*"
     }
 }
