@@ -10,7 +10,8 @@
     }],
     "autoload": {
         "psr-4": {
-            "Yannoff\\Lumiere\\": "src/"
+            "Yannoff\\Lumiere\\Utils\\": "src/",
+            "Yannoff\\Lumiere\\Database\\": "lib/Database/"
         }
     },
     "minimum-stability": "dev",
