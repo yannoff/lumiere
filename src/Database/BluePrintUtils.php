@@ -9,15 +9,15 @@
  * source code.
  */
 
-namespace Yannoff\Lumiere\Database\BluePrint;
+namespace Yannoff\Lumiere\Utils\Database;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 
 /**
- * Database utilities class
+ * BluePrintUtils utilities class
  */
-class Utils
+class BluePrintUtils
 {
     /**
      * Add "created_at" and "updated_at" columns with DEFAULT CURRENT_TIMESTAMP to the blueprint

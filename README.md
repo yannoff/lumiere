@@ -10,12 +10,12 @@ composer require yannoff/lumiere
 
 ## Reference
 
-### [Database\BluePrint\Utils](/src/Database/BluePrint/Utils.php)::addTimestamps()
+### [Utils\Database\BluePrintUtils](/src/Database/BluePrintUtils.php)::addTimestamps()
 
 #### Synopsis
 
 ```php
-Utils::addTimestamps(Blueprint $table, int $precision = 0)
+BluePrintUtils::addTimestamps(Blueprint $table, int $precision = 0)
 ```
 > Add `created_at` & `updated_at` columns with `DEFAULT CURRENT_TIMESTAMP` to the blueprint
 
@@ -26,7 +26,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-use Yannoff\Lumiere\Database\BluePrint\Utils;
+use Yannoff\Lumiere\Utils\Database\BluePrintUtils;
 
 class CreateTagsTable extends Migration
 {
@@ -39,7 +39,7 @@ class CreateTagsTable extends Migration
             $table->id();
             $table->string('label', 120);
             $table->string('slug', 128);
-            Utils::addTimestamps($table);
+            BluePrintUtils::addTimestamps($table);
         });
     }
 }
