@@ -1,11 +1,11 @@
-# Lumière
+# Lumière Utils
 
 A set of utils & helpers for [Laravel](https://github.com/laravel).
 
 ## Installation
 
 ```
-composer require yannoff/lumiere
+composer require yannoff/lumiere-utils
 ```
 
 ## Reference

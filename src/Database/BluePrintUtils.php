@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the yannoff/lumiere library
+ * This file is part of the yannoff/lumiere-utils library
  *
  * (c) Yannoff (https://github.com/yannoff)
  *

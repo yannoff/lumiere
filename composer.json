@@ -1,5 +1,5 @@
 {
-    "name": "yannoff/lumiere",
+    "name": "yannoff/lumiere-utils",
     "description": "A set of utils & helpers for Laravel",
     "keywords": ["laravel", "laravel framework", "lumen", "illuminate"],
     "type": "library",
